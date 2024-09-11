@@ -1,0 +1,121 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&family=Varela+Round&display=swap');
+
+
+body{
+   background-color:antiquewhite
+}
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+nav{
+  font-family: 'Ubuntu', sans-serif;
+}
+
+nav ul{
+   display: flex;
+    list-style-type: none;
+    height: 50px;
+    background-color:black;
+    color:white;
+    align-items: center;
+    cursor:pointer
+    
+}
+  nav ul li{
+    margin: 10px;
+    font-size: small;
+  }
+
+.brand img{
+  width: 90px;
+}
+
+.heading{
+  cursor:pointer
+}
+
+.container{
+  height:100vh;
+  background-color: black;
+  color: white;
+  font-family: 'Varela Round',sans-serif;
+  display: flex;
+  flex-direction: column;  
+  width: 70vw;
+   margin: 20px auto;
+   border-radius: 10px;
+   padding: 15px;
+   background-image:url(https://png.pngtree.com/thumb_back/fh260/background/20230610/pngtree-woman-in-colorful-music-sound-wallpaper-image_2894117.jpg) ;
+}
+
+.bottom{
+   position: sticky;
+   height: 95px;
+   background-color: black;
+   color: white;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+  flex-direction: column; 
+   
+  }
+.icons{
+  margin-top: 10px;
+ 
+}
+
+.icons i{
+   margin: 8px;
+  cursor: pointer;
+}
+
+#myProgressBar{
+  width: 45vw;
+  cursor:pointer ;
+ }
+
+ .songItem {
+    display: flex;
+    height: 60px;
+    background-color:rgb(105, 149, 105);
+    color: black;
+    margin: 10px 20px;
+     width: 45%;      
+   justify-content:space-between;
+    border-radius: 20px;
+   font-weight: bold;
+   cursor:pointer
+ }
+ .songItem img{
+  width: 60px;   
+  height: 60px;
+  border-radius: 50%;
+  margin: 0px 5px;
+ }
+
+ .songlistplay i{
+    margin: 0px 10px;
+    cursor: pointer;
+   
+ }
+
+ .songItemcontainer{
+   margin-top: 35px;
+ }
+
+ .songInfo{
+    position: absolute;
+    left: 10vw;
+    font-family: 'Varela Round',sans-serif;
+  
+ }
+ .songInfo img{
+    opacity: 0;
+    transition: opacity 0.4s ease-in;
+ }
